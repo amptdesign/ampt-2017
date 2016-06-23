@@ -3721,3 +3721,21 @@ html {
 .light .ut-project-sc li a:hover {
     color:#FFFFFF;
 }
+
+.tp-caption {
+	color:white;
+	line-height: 125%;
+}
+
+.tp-resizeme {
+	font-size:5em !important;
+	font-family: ralewaysemibold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.second {
+	color:#77BE32;
+}
+
+.tp-dottedoverlay.twoxtwo {
+	/*background-color: rgba(44,62,80 , 0.1 );*/
+}
