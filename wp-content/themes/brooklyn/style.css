@@ -3722,6 +3722,17 @@ html {
     color:#FFFFFF;
 }
 
+/* ampt  design */
+
+body {
+	color:#000 !important;
+	background-color: #ccc!important;
+}
+
+#navigation ul li a {
+	font-size:14px;
+}
+
 .tp-caption {
 	color:white;
 	line-height: 125%;
@@ -3738,4 +3749,8 @@ html {
 
 .tp-dottedoverlay.twoxtwo {
 	/*background-color: rgba(44,62,80 , 0.1 );*/
+}
+
+.js #main-content section .section-content, .js #main-content section .section-header-holder {
+    opacity: 1 !important; 
 }

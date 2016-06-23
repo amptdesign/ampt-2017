@@ -160,9 +160,7 @@ $headerstate = NULL;
 
 if( is_home() || is_front_page() || is_singular('portfolio') || get_post_meta( get_the_ID() , 'ut_activate_page_hero' , true ) == 'on' ) {
 	
-	if( ot_get_option('ut_navigation_state' , 'off') == 'off' ) {
-		$headerstate = 'ha-header-hide';
-	}
+	if( ot_get_option('ut_navigation_state' , 'off') == 'off' ) { $headerstate = 'ha-header-hide';}
 
 }
 

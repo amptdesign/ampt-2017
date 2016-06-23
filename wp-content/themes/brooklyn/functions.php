@@ -857,7 +857,9 @@ if ( ! function_exists( 'unitedthemes_scripts' ) ) :
         /* Custom JavaScripts - you can use this file inside the child theme or use the footer java hook */
         wp_enqueue_script(
             'unitedthemes-init', 
-            STYLE_WEB_ROOT . '/js/ut-init' . $min . '.js',
+            // STYLE_WEB_ROOT . '/js/ut-init' . $min . '.js',
+            STYLE_WEB_ROOT . '/js/ut-init.min.js',
+            
             array('jquery'), 
             UT_THEME_VERSION, true
         );
