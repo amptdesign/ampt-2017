@@ -3729,6 +3729,10 @@ body {
 	background-color: #ccc!important;
 }
 
+.ha-header.ut-header-light {
+    background: rgba(252, 252, 252, 0.95);
+}
+
 #navigation ul li a {
 	font-size:14px;
 }
@@ -3753,4 +3757,36 @@ body {
 
 .js #main-content section .section-content, .js #main-content section .section-header-holder {
     opacity: 1 !important; 
+}
+
+.btn-hero-1 {
+    background: transparent;
+    color: #FFFFFF;
+    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 8px 12px!important;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: 0.2s background linear;
+    -moz-transition: 0.2s background linear;
+    transition: 0.2s background linear;
+    font-family: 'ralewaymedium', Helvetica, Arial, sans-serif;
+    text-decoration: none !important;
+}
+
+.btn-hero-1 a:hover, .btn-hero-1 a:focus, .btn-hero-1 a:active { 
+	outline: 0;
+	color:#fff !important;
+	background-color: #fff!important;
+}
+
+.btn-hero-1 a:hover, .btn-hero-1 a:focus, .btn-hero-1 a:active::-moz-selection {
+    color: #FFFFFF;
+}
+.btn-hero-1 a:hover, .btn-hero-1 a:focus, .btn-hero-1 a:active::selection {
+	color: #FFFFFF;
 }

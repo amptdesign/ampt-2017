@@ -209,6 +209,8 @@
    	<?php ut_after_footer_hook(); // action hook, see inc/ut-theme-hooks.php ?>
 	
     <?php wp_footer(); ?>    
+
+    <script type='text/javascript' src='http://localhost:35621/wp-content/themes/brooklyn/js/jquery.waypoints.min.js?ver=2.0.5'></script>
     
 	<script type="text/javascript">
     /* <![CDATA[ */        
