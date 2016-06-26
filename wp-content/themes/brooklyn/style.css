@@ -3749,10 +3749,12 @@ body {
 .tp-resizeme {
 	font-size:5em !important;
 	font-family: ralewaysemibold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 3px !important;
 }
 
-.second {
-	color:#77BE32;
+.second { 
+	color:#77BE32; 
+	font-size:inherit;
 }
 
 .tp-dottedoverlay.twoxtwo {
