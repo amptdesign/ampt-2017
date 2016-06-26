@@ -3729,8 +3729,12 @@ body {
 	background-color: #ccc!important;
 }
 
+.site-logo img {
+	max-width:initial;
+}
+
 .ha-header.ut-header-light {
-    background: rgba(252, 252, 252, 0.95);
+    background: rgba(253, 254, 255, 0.95);
 }
 
 #navigation ul li a {
@@ -3790,3 +3794,4 @@ body {
 .btn-hero-1 a:hover, .btn-hero-1 a:focus, .btn-hero-1 a:active::selection {
 	color: #FFFFFF;
 }
+

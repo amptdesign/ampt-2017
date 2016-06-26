@@ -234,7 +234,7 @@
     
     </div><!-- close #main-content -->
     
-    <?php echo ut_create_bg_videoplayer('body'); ?>
+    <?php //echo ut_create_bg_videoplayer('body'); ?>
                             
     </body>
 </html>

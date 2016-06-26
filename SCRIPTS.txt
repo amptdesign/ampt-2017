@@ -1,0 +1,52 @@
+AMPT DESIGN
+===============
+
+
+========
+SCRIPTS:
+========
+
+
+HEADER
+=========
+jquery.js?ver=1.12.3
+jquery-migrate.min.js?ver=1.4.0
+jquery.themepunch.tools.min.js?ver=5.2.3.5
+jquery.themepunch.revolution.min.js?ver=5.2.3.5
+jquery.isotope.min.js?ver=1.8
+jquery.lazyload.min.js?ver=1.9.1
+modernizr.min.js?ver=2.6.2
+jquery.flexslider.min.js?ver=4.5.2
+jquery.elastislide.min.js?ver=4.5.2
+jquery.queryloader2.min.js?ver=2.9.0
+
+
+FOOTER
+==========
+jquery.isotope.perfectmasonry.min.js?ver=4.5.2
+jquery.utmasonry.min.js?ver=3.8.2
+ut.effects.min.js?ver=3.8.2'
+jquery.waypoints.min.js?ver=2.0.5
+
+
+
+==============
+CSS
+===========
+
+HEADER
+==============
+mediaelementplayer.min.css?ver=2.18.1
+wp-mediaelement.min.css?ver=4.5.2
+flexslider.min.css?ver=4.5.2
+ut.portfolio.style.min.css?ver=4.5.2
+prettyPhoto.min.css?ver=4.5.2
+font-awesome.min.css?ver=4.5.2
+
+SCRIPTS
+
+Lazy Load Plugin for jQuery
+===============================
+Lazy Load is delays loading of images in long web pages. Images outside of viewport are not loaded until user scrolls to them. This is opposite of image preloading. 
+
+Using Lazy Load on long web pages will make the page load faster. In some cases it can also help to reduce server load. 
