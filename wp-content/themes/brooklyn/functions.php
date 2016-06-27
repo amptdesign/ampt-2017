@@ -578,12 +578,7 @@ if ( ! function_exists( 'unitedthemes_scripts' ) ) :
         }    
         
         /* browser and mobile detection */
-        wp_enqueue_script( 
-            'modernizr',
-            THEME_WEB_ROOT . '/js/modernizr' . $min . '.js', 
-            array('jquery'), 
-            '2.6.2'
-        );
+        wp_enqueue_script('modernizr', THEME_WEB_ROOT.'/js/modernizr'.$min.'.js', array('jquery'), '2.6.2');
                         
         /* comment reply*/
         if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) { wp_enqueue_script( 'comment-reply' ); }        

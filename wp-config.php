@@ -37,8 +37,8 @@ define('NONCE_SALT',       '~=Sap[+$3gHJsHhaY0T/L+(#vg(%={7}ZImQH%H!E(eM-LY*gT$-
 
 $table_prefix  = 'wp_';
 
-// define('WP_DEBUG', true);
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
+// define('WP_DEBUG', false);
 
 
 /* That's all, stop editing! Happy blogging. */

@@ -208,10 +208,27 @@
         
    	<?php ut_after_footer_hook(); // action hook, see inc/ut-theme-hooks.php ?>
 	
-    <?php wp_footer(); ?>    
+    <?php wp_footer(); ?>
 
-    <script type='text/javascript' src='http://localhost:35621/wp-content/themes/brooklyn/js/jquery.waypoints.min.js?ver=2.0.5'></script>
-    
+<script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/js/plugins/prettyphoto/jquery.prettyPhoto.js?ver=3.1.6'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/js/jquery.scrollTo.js?ver=1.4.6'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-shortcodes/js/tabs.collapse.js?ver=1.0'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-shortcodes/js/jquery.visible.js?ver=1.0'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-shortcodes/js/jquery.appear.js?ver=1.0'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-shortcodes/js/jquery.fitvids.js?ver=1.0.3'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-shortcodes/js/ut.scplugin.js?ver=1.0'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/themes/brooklyn/js/jquery.easing.js?ver=1.3'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/themes/brooklyn/js/superfish.js?ver=1.7.4'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/themes/brooklyn/js/SmoothScroll.js?ver=0.9.9'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/themes/brooklyn/js/retina.js?ver=1.3'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/themes/brooklyn/js/jquery.parallax.js?ver=1.1.3'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/themes/brooklyn/js/jquery.waypoints.js?ver=2.0.5'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/themes/brooklyn/js/ut-init.js?ver=3.3'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-includes/js/wp-embed.js?ver=4.4'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/js/jquery.isotope.perfectmasonry.js?ver=4.4'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/js/jquery.utmasonry.js?ver=3.8.2'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/js/ut.effects.js?ver=3.8.2'></script>
+
 	<script type="text/javascript">
     /* <![CDATA[ */        
         

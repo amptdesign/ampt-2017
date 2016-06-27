@@ -282,12 +282,12 @@
 		var ut_scrolleffect = $('body').data("scrolleffect"),
 			ut_scrollspeed	= $('body').data("scrollspeed");
 		
-		$('.logo a[href*=#]').click( function(event) { 
+		// $('.logo a[href*=#]').click( function(event) { 
 				
-			event.preventDefault();			
-			$.scrollTo( $(this).attr('href') , ut_scrollspeed, { easing: ut_scrolleffect , offset: -brooklyn_scroll_offset , 'axis':'y' } );			
+		// 	event.preventDefault();			
+		// 	$.scrollTo( $(this).attr('href') , ut_scrollspeed, { easing: ut_scrolleffect , offset: -brooklyn_scroll_offset , 'axis':'y' } );			
 			
-		});
+		// });
 		
 		$('.toTop').click( function(event) { 
 				
@@ -419,7 +419,7 @@
 
 					/* update navigation */
 					$('#navigation a').removeClass('selected');
-					$('#navigation a[href*=#'+containerID+']').addClass('selected');
+					// $('#navigation a[href*=#'+containerID+']').addClass('selected');
 									
 				}
                 
@@ -449,7 +449,7 @@
 
 					/* update navigation */
 					$('#navigation a').removeClass('selected');
-					$('#navigation a[href*=#'+containerID+']').addClass('selected');
+					// $('#navigation a[href*=#'+containerID+']').addClass('selected');
 									
 				}
 							

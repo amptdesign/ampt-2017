@@ -3797,3 +3797,20 @@ body {
 	color: #FFFFFF;
 }
 
+.hero-sl2 {
+	border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 40px 0 !important;
+    text-align: center;
+    min-width: 812px !important;
+    width: 812px !important;
+}
+
+.hero-tiny {
+	font-size:11px !important;
+	text-align: center;
+}
+
+.hero-sl3 {
+	font-size: 14px;
+}
