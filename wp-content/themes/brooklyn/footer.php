@@ -165,7 +165,7 @@
                 
                 <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
                 
-                    <?php echo do_shortcode( ot_get_option('ut_site_copyright') ); ?>
+                    <?php //echo do_shortcode( ot_get_option('ut_site_copyright') ); // we love blah blah ?>
                         
                     <?php 
                         
@@ -180,9 +180,7 @@
                                     $link  = !empty( $value["link"] )  ? esc_url( $value["link"] ) : '#' ;
                                     $title = !empty( $value["title"] ) ? 'title="' . esc_attr( $value["title"] ) . '"' : '' ;
                                     
-                                    echo '<li>';
-                                        echo '<a '.$title.' href="'.$link.'"><i class="fa '.$value["icon"].' fa-lg"></i></a>';
-                                    echo '</li>';
+                                    echo '<li><a '.$title.' href="'.$link.'"><i class="fa '.$value["icon"].' fa-lg"></i></a></li>';
                                     
                                 }
                             
@@ -194,10 +192,7 @@
                         
                     ?>
                         
-                    <span class="copyright">
-                        <?php esc_html_e('Powered by' , 'unitedthemes'); ?> <a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'unitedthemes' ); ?>" data-rel="generator"><?php printf( __( ' %s', 'unitedthemes' ), 'WordPress' ); ?></a>
-                        <?php printf( __( 'Theme: %1$s by %2$s', 'unitedthemes' ), 'Brooklyn', '<a href="http://themeforest.net/item/brooklyn-creative-one-page-multipurpose-theme/6221179?ref=UnitedThemes" data-rel="designer">United Themes</a>' ); ?>
-                    </span>
+                    <div class="copyright"> Ampt Design &copy; <a href="#" class="tooltip" title="Ahead of the Curve!">2017</a> - Expanding your mind through superior Design! </div>
                         
                 </div>
                     
@@ -228,6 +223,7 @@
 <script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/js/jquery.isotope.perfectmasonry.js?ver=4.4'></script>
 <script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/js/jquery.utmasonry.js?ver=3.8.2'></script>
 <script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/js/ut.effects.js?ver=3.8.2'></script>
+
 
 	<script type="text/javascript">
     /* <![CDATA[ */        

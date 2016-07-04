@@ -2917,8 +2917,8 @@ a.toTop {
 .copyright {
 	padding:0;
 	margin:0;
-	letter-spacing:0.5px;
-	font-size:10px;
+	letter-spacing:1px;
+	font-size:14px;
 	color:#999999;
 	display:block;
 }

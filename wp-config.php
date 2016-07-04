@@ -41,6 +41,14 @@ define('WP_DEBUG', true);
 // define('WP_DEBUG', false);
 
 
+/*****************************************
+******** LIVE SERVER ONLY !!! ************
+*****************************************/
+// define('DISALLOW_FILE_EDIT', true);
+// define('DISALLOW_FILE_MODS', true);
+define('WP_POST_REVISIONS', 10);
+
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
