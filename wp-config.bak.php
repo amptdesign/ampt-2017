@@ -19,9 +19,9 @@
  */
 
 
-define('DB_NAME', 'wordpress632');
-define('DB_USER', 'wordpressuser632');
-define('DB_PASSWORD', 'HWE[CjIcSIfv');
+define('DB_NAME', 'db_wp_ampt2017');
+define('DB_USER', 'amptdesign2');
+define('DB_PASSWORD', 'Nicegurl_99');
 define('DB_HOST', 'localhost');
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
@@ -37,8 +37,8 @@ define('NONCE_SALT',       '~=Sap[+$3gHJsHhaY0T/L+(#vg(%={7}ZImQH%H!E(eM-LY*gT$-
 
 $table_prefix  = 'wp_';
 
-// define('WP_DEBUG', true);
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
+//define('WP_DEBUG', false);
 
 
 /*****************************************
@@ -46,7 +46,7 @@ define('WP_DEBUG', false);
 *****************************************/
 // define('DISALLOW_FILE_EDIT', true);
 // define('DISALLOW_FILE_MODS', true);
-define('WP_POST_REVISIONS', 10);
+// define('WP_POST_REVISIONS', 10);
 
 
 /* That's all, stop editing! Happy blogging. */
