@@ -3306,10 +3306,18 @@ button:hover, input[type="submit"]:hover, input[type="button"]:hover, button:foc
 span.ut-word-rotator {
 	color:inherit !important;
 }
+
+/* OUR CLIENTS POP-OUT BOX */
+
 div.pp_default .pp_content .ppt {
-	font-size:13px;
+	font-size:18px;
+	letter-spacing: 0;
 	color:#222222 !important;
 }
+.pp_content{height:80px;min-width:40px;color:#222222 !important;}
+
+/* END POP-OUT BOX */
+
 .error404 .search-submit, .search-no-results .search-submit {
 	margin-bottom:0;
 }
@@ -3722,7 +3730,11 @@ html {
     color:#FFFFFF;
 }
 
-/* ampt  design */
+/* ************************
+
+	AMPT DESIGN SPECIFIC 
+
+***************************  */
 
 body {
 	color:#000 !important;
