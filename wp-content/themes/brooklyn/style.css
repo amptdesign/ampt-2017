@@ -3826,3 +3826,21 @@ body {
 .hero-sl3 {
 	font-size: 14px;
 }
+
+
+.hero-title {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+}
+/*.hero-title {
+    text-transform: uppercase;
+}
+.hero-title {
+    margin: 0;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 5.000em;
+    line-height: 125%;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}*/
