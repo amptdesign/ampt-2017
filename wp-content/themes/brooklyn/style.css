@@ -3901,3 +3901,12 @@ html {
 }
 
 .second { color:#77BE32; }
+
+.welcome {
+	text-align: left;
+	list-style-type: square!important;
+}
+
+.lead { font-size: 1.4em!important; }
+
+.contact-section { margin-top:80px; }

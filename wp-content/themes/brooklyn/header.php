@@ -660,38 +660,41 @@ blockquote {
     background-repeat: no-repeat;
 }
 
-#about-brooklyn {
-    padding-top: 80px;
+#about {
+    /*padding-top: 80px;*/
+    padding-top: 40px;
     padding-bottom: 60px;
 }
 
-#about-brooklyn .ut-offset-anchor {
-    top: -159px;
+#about .ut-offset-anchor {
+    /*top: -159px;*/
+    top: -119px;
+
 }
 
-#about-brooklyn .parallax-header {
+#about .parallax-header {
     padding-bottom: 30px;
 }
 
-#about-brooklyn .section-header {
+#about .section-header {
     padding-bottom: 30px;
 }
 
-#about-brooklyn .parallax-title {
+#about .parallax-title {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 800;
 }
 
-#about-brooklyn .section-title {
+#about .section-title {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 800;
 }
 
-#about-brooklyn {
+#about {
     background-color: #FFFFFF;
 }
 
-#about-brooklyn .section-header.pt-style-1 .section-title span {
+#about .section-header.pt-style-1 .section-title span {
     background-color: #FFFFFF;
 }
 
