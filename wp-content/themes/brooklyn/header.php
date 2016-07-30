@@ -158,7 +158,9 @@ a {
 }
 
 .ut-custom-icon-link:hover i {
-    color: #77be32 !important;
+    /*color: #77be32 !important;*/
+    color: #fbc02d!important;
+
 }
 
 .ut-hide-member-details:hover,
@@ -167,7 +169,8 @@ a {
 .ut-mm-button:hover:before,
 .ut-mm-trigger.active .ut-mm-button:before,
 .ut-mobile-menu a:after {
-    color: #77be32;
+    /*color: #77be32;*/
+    color: #fbc02d;
 }
 
 .ut-header-light .ut-mm-button:before {

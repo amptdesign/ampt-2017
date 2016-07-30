@@ -2100,7 +2100,9 @@ if( !function_exists('ut_service_icon_box') ) {
         
         $box = '<div class="ut-service-icon-box ' . $grid[$width] . ' ' . $last . ' ' . $class . '">';
             
-            $box  .= '<style type="text/css" scoped> #' . $id . ' { background:' . $color . '; } #' . $id . ':hover { background: ' . $hovercolor . '; } #' . $id . ':after { box-shadow: 0 0 0 4px ' . $hovercolor . '; } </style>';
+            // $box  .= '<style type="text/css" scoped> #' . $id . ' { background:' . $color . '; } #' . $id . ':hover { background: ' . $hovercolor . '; } #' . $id . ':after { box-shadow: 0 0 0 4px ' . $hovercolor . '; } </style>';
+
+            $box  .= '<style type="text/css" scoped> #' . $id . ' { background:' . $color . '; } #' . $id . ':hover { background: #fbc02d; } #' . $id . ':after { box-shadow: 0 0 0 4px #fbc02d; } </style>';
                 
             $box .= '<div class="ut-highlight-icon-wrap ut-highlight-icon-effect">';        
                 $box .=    '<a id="' . $id . '" data-id="' . $id . '" data-hovercolor="' . $hovercolor . '"  ' . $dataeffect . ' class="ut-highlight-icon fa ' . $icon . ' ' . $animated . '" href="' . $url . '" target="' . $target . '"></a>';
@@ -2109,7 +2111,7 @@ if( !function_exists('ut_service_icon_box') ) {
             $box .= '<div class="ut-service-icon-box-content">';
                 
                 if( !empty( $headline ) ) {
-                    $box .= '<h3>' . $headline . '</h3>';
+                    $box .= '<h3 class="service-icon-title">' . $headline . '</h3>';
                 }
                 
                 $box .= '<p>' . do_shortcode($content) . '</p>';

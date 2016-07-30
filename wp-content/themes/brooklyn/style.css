@@ -283,11 +283,11 @@ blockquote {
 	-ms-hyphens: none;
 	hyphens: none;
 	quotes: none;
-	font-size:20px;
-	line-height:150%;
+	font-size:18px;
+	/*line-height:150%;*/
 	padding-left:10px;
 	border-left:2px solid;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 	letter-spacing:0.5px;
 }
 blockquote cite {
@@ -2897,7 +2897,7 @@ ul.sidebar, .widget-container ul {
 
 .wpcf7-not-valid-tip, .post-password-form label, 
 .wpcf7-form {
-	font-size:11px !important;
+	font-size:14px !important;
 	text-transform:uppercase;
 }
 #contact-section .background-map {
@@ -3019,8 +3019,8 @@ a.toTop {
 .copyright {
 	padding:0;
 	margin:0;
-	letter-spacing:0.5px;
-	font-size:10px;
+	letter-spacing:0.75px;
+	font-size:15px;
 	color:#999999;
 	display:block;
 }
@@ -3903,10 +3903,44 @@ html {
 .second { color:#77BE32; }
 
 .welcome {
-	text-align: left;
+	/*text-align: left;*/
 	list-style-type: square!important;
+	list-style-position: inside;
 }
 
 .lead { font-size: 1.4em!important; }
 
 .contact-section { margin-top:80px; }
+
+.portfolio-lazy {
+    border: solid 1px #ccc;
+    border-top: solid 2px #ccc;
+}
+
+.wpcf7-submit {
+	text-align: center!important;
+	padding: 7px 38px!important;
+    font-size: 16px!important;
+    letter-spacing: 2px!important;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif!important;
+}
+
+.ut-highlight-icon-effect .ut-highlight-icon:hover:after {
+    -webkit-transform: scale(0.95)!important;
+    -moz-transform: scale(0.95)!important;
+    -ms-transform: scale(0.95)!important;
+    transform: scale(0.95)!important;
+    color: #fbc02d!important;
+}
+
+/*.ut-highlight-icon:before {
+	opacity: 0.8!important;
+}
+*/
+.service-icon-title {
+	font-size: 1.25em;
+}
+
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    color: #444;
+}
