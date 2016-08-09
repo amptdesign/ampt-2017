@@ -830,7 +830,7 @@ li .gallery .gallery-item {
 	transform: translateY(0%);
 }
 .site-logo {
-    color:#222222;
+    color:#333;
     display:table;
 	text-align:left;
 	margin:0;
@@ -851,7 +851,8 @@ li .gallery .gallery-item {
     vertical-align:middle;
 }
 .site-logo img {
-	max-height:60px;
+	max-height:58px;
+	max-width: inherit!important;
 	vertical-align:middle;
 }
 .page-header, 
@@ -865,6 +866,8 @@ li .gallery .gallery-item {
 .parallax-title, 
 .section-title {
 	font-size:30px;
+	/*font-weight:600!important;*/
+	text-transform: uppercase;
 	margin-bottom:20px;
 	position:relative;
 }
@@ -1564,15 +1567,18 @@ ul.ut-tablet li.show {
 	float:left;
 }
 #navigation ul li a {
-	white-space:nowrap;
 	padding-left:25px;
-	color: #555555;
-	text-transform: uppercase;
+
+	font-family: 'ralewaymedium', Helvetica, Arial, sans-serif;
 	letter-spacing: 1px;
-	font-size:11px;
+	font-size:16px;
+	text-transform: uppercase;
+	white-space:nowrap;
+	color: #555555;
 	position:relative;
 	text-decoration: none;
 	display:block;
+	vertical-align: middle;
 }
 .ha-transparent #navigation ul li a {
 	color:#FFFFFF;
@@ -1635,7 +1641,7 @@ ul.ut-tablet li.show {
 	-webkit-transition:0.2s all linear;
 	-moz-transition:0.2s all linear;
 	transition:0.2s all linear;
-	font-size:10px !important;
+	font-size:14px !important;
 }
 #navigation ul.sub-menu {
 	border-top:2px solid;
@@ -3941,6 +3947,5 @@ html {
 	font-size: 1.25em;
 }
 
-.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-    color: #444;
-}
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 { color: #444; }
+/*.pt-style-6 {font-size:1em;}*/
