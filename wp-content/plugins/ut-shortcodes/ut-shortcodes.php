@@ -216,9 +216,10 @@ function ut_shortcodes_enqueuestyles() {
         wp_enqueue_style( 'ut-fancyrotator', $ut_fancyrotator );
         
 		/* main shortcode css */
-		$ut_shortcodes = file_exists( get_stylesheet_directory() . '/css/ut.shortcode' . $min . '.css' ) ? get_stylesheet_directory_uri() . '/css/ut.shortcode' . $min . '.css' : UT_SHORTCODES_URL . 'css/ut.shortcode' . $min . '.css';
-		wp_enqueue_style( 'ut-shortcodes' , $ut_shortcodes );				
-		
+		// $ut_shortcodes = file_exists( get_stylesheet_directory() . '/css/ut.shortcode' . $min . '.css' ) ? get_stylesheet_directory_uri() . '/css/ut.shortcode' . $min . '.css' : UT_SHORTCODES_URL . 'css/ut.shortcode' . $min . '.css';
+		// wp_enqueue_style( 'ut-shortcodes' , $ut_shortcodes );				
+		    $ut_shortcodes = file_exists( get_stylesheet_directory() . '/css/ut.shortcode.css' ) ? get_stylesheet_directory_uri() . '/css/ut.shortcode.css' : UT_SHORTCODES_URL . 'css/ut.shortcode' . $min . '.css';
+    wp_enqueue_style( 'ut-shortcodes' , $ut_shortcodes ); 
     }
     
 }

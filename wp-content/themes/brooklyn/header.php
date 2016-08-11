@@ -667,6 +667,8 @@ blockquote {
     /*padding-top: 80px;*/
     padding-top: 40px;
     padding-bottom: 60px;
+/*    padding-top: 20px;
+    padding-bottom: 80px;*/
 }
 
 #about .ut-offset-anchor {
@@ -680,7 +682,8 @@ blockquote {
 }
 
 #about .section-header {
-    padding-bottom: 30px;
+    padding-bottom: 25px!important;
+    /*padding-bottom: none;*/
 }
 
 #about .parallax-title {
@@ -1080,6 +1083,24 @@ blockquote {
 .hero-title span {
     font-weight: inherit;
 }
+
+
+.subtit {
+    margin:0!important;
+    padding:0!important;
+    font-size:14pt!important;
+    line-height: 22pt!important;
+    color:#585858;
+}
+
+.subtit b {
+    color:#222;
+    font-size:16.3pt;
+    font-weight: 400;
+    letter-spacing: 0.6px; 
+}
+
+
 </style>
 
 
@@ -1257,5 +1278,3 @@ $ut_activate_page_hero = get_post_meta( get_the_ID() , 'ut_activate_page_hero' ,
     <a class="ut-offset-anchor" id="to-main-content"></a>
 		
         <div class="main-content-background">
-
-        <?php //putRevSlider('Full-Screen-1', 'homepage'); ?>

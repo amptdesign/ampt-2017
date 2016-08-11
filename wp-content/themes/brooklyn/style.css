@@ -3382,7 +3382,11 @@ button:hover, input[type="submit"]:hover, input[type="button"]:hover, button:foc
 	font-size:1.125em;
 }
 .dark b, .dark strong {
-	color:#222222;
+	color:#222;
+	/*font-size:17pt;*/
+    /*font-size: 12pt!important;*/
+    font-weight: 400;
+    /* letter-spacing: 0.6px; */
 }
 .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
 	color:#222222;
@@ -3934,14 +3938,8 @@ html {
 .ut-highlight-icon-effect .ut-highlight-icon:hover:after {
     -webkit-transform: scale(0.95)!important;
     -moz-transform: scale(0.95)!important;
-    -ms-transform: scale(0.95)!important;
-    transform: scale(0.95)!important;
-    color: #fbc02d!important;
-}
+    -ms-transform: scale(0.95)!important; 
 
-/*.ut-highlight-icon:before {
-	opacity: 0.8!important;
-}
 */
 .service-icon-title {
 	font-size: 1.25em;
@@ -3949,3 +3947,19 @@ html {
 
 .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 { color: #444; }
 /*.pt-style-6 {font-size:1em;}*/
+
+/*div .welcome*/
+
+h5.serv-title {}
+
+
+/* OVERWRITTEN IN HEADER.PHP <STYLE></STYLE> */
+/*p.subtit {
+	margin:0!important;
+	padding:0!important;
+	font-size:14pt!important;
+	line-height: 22pt!important;
+	color:#585858;
+}
+
+.subtit b {font-color:#fff!important;}*/

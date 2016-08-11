@@ -23,16 +23,20 @@
 	-webkit-transition:0.2s all linear;
 	-moz-transition:0.2s all linear;
 	transition:0.2s all linear;
-	font-family: 'ralewaymedium', Helvetica, Arial, sans-serif;
+	font-family: 'ralewaysemibold', Helvetica, Arial, sans-serif;
 }
 .ut-btn.small {
 	font-size:11px;
 }
 .ut-btn.medium {
-	font-size:13px;
-	height: 44px;
-    line-height: 44px;
-	padding: 0 20px;
+    font-size: 11pt;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 16px;
+    border: solid 2px #7ed321;
+    background-color: #fff!important;
+    color: #7ed321!important;
+    font-family: 'ralewaysemibold', Helvetica, Arial, sans-serif;
 }
 .ut-btn.large {
 	height: 50px;
@@ -75,12 +79,12 @@ p .ut-btn {
 	background:#222222;
 }
 /* Green */
-.ut-btn.green {
+/*.ut-btn.green {
 	background:#2ecc71;
 }
 .ut-btn.green:hover {
 	background:#222222;
-}
+}*/
 /* Blue */
 .ut-btn.blue {
 	background:#3498db;
@@ -249,9 +253,10 @@ p .ut-btn {
 .ut-one-half {
 	width:48%;
 }
-.ut-one-third {
+/*.ut-one-third {
 	width:30.66%;
-}
+}*/
+.ut-one-third {width:30%;margin:0 0 0 3%;}
 .ut-two-thirds {
 	width:65.33%;
 }
@@ -478,6 +483,7 @@ p .ut-btn {
 
 .ut-service-column {
 	overflow:hidden;
+	text-align: center;
 }
 .ut-vertical {
 	text-align:center;
@@ -507,8 +513,14 @@ p .ut-btn {
 }
 .ut-service-column h3 {
 	word-break:normal;
-	font-size:17px;
+	font-size:12pt;
+	line-height:34px;
+	height:34px;
 	margin-bottom:5px;
+	font-weight: 400;
+	color:#fff;
+	background-color:#4a4a4a;
+	font-family:"ralewayregular", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 /* UNITED THEMES Image Animation */
