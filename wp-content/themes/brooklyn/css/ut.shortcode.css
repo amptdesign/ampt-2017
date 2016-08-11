@@ -29,10 +29,11 @@
 	font-size:11px;
 }
 .ut-btn.medium {
-    font-size: 11pt;
+    font-size: 10pt;
     height: 40px;
     line-height: 40px;
-    padding: 0px 16px;
+    padding: 0px 12px;
+    letter-spacing: 0.8px;
     border: solid 2px #7ed321;
     background-color: #fff!important;
     color: #7ed321!important;
