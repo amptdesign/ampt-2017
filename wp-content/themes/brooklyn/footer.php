@@ -223,31 +223,27 @@
 <script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/js/jquery.isotope.perfectmasonry.js?ver=4.4'></script>
 <script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/js/jquery.utmasonry.js?ver=3.8.2'></script>
 <script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/js/ut.effects.js?ver=3.8.2'></script>
+<script type='text/javascript' src='http://localhost:35621/wp-content/themes/brooklyn/js/sweet-justice.min.js?ver=1.0.0'></script>
 
 
-	<script type="text/javascript">
-    /* <![CDATA[ */        
-        
-		<?php ut_java_footer_hook(); // action hook, see inc/ut-theme-hooks.php ?> 
-		
-		<?php if( ot_get_option('ut_google_analytics') ) : ?>
-          
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', '<?php echo stripslashes( ot_get_option('ut_google_analytics') ); ?>', 'auto');
-          ga('send', 'pageview');
-		  
-		<?php endif; ?>
-		     
-     /* ]]> */
-    </script>    
+<script type="text/javascript">
+/* <![CDATA[ */        
+
+// inc/ut-theme-hooks.php
+<?php ut_java_footer_hook(); ?> 
+      
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-50605466-1', 'amptdesign.com');
+ga('send', 'pageview');
+     
+/* ]]> */
+</script>    
     
     </div><!-- close #main-content -->
-    
-    <?php //echo ut_create_bg_videoplayer('body'); ?>
-                            
+                                
     </body>
 </html>

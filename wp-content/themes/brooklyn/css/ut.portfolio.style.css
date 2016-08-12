@@ -363,7 +363,7 @@ a.next-portfolio-details:hover,
 	margin-right:0;
 }
 .ut-portfolio-menu li a {
-	font-size:11px;
+	font-size:11pt;
 	letter-spacing:0.5px;
 	background: transparent;
 	padding:4px 12px;
@@ -444,10 +444,17 @@ a.next-portfolio-details:hover,
 	font-size:17px;
 	text-transform:uppercase;	
 }
+
 .ut-portfolio-info span {
-	font-size:11px;
+	/*font-size:11px;*/
+    font-size: 14pt;
+    line-height: 22.5pt;
 	letter-spacing:0.5px;
-	text-transform:uppercase;	
+    text-transform: uppercase;
+    color: #fff;
+    /*background-color: rgba(50,50,50,.2);*/
+    padding: 2px 4px;
+
 }
 .ut-portfolio-detail {
 	margin-bottom:50px;

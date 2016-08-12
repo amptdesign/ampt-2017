@@ -257,7 +257,7 @@ p .ut-btn {
 /*.ut-one-third {
 	width:30.66%;
 }*/
-.ut-one-third {width:30%;margin:0 0 0 3%;}
+.ut-one-third {width: 31%;margin: 0 0 0 2%;}
 .ut-two-thirds {
 	width:65.33%;
 }
@@ -522,6 +522,7 @@ p .ut-btn {
 	color:#fff;
 	background-color:#4a4a4a;
 	font-family:"ralewayregular", Helvetica Neue, Helvetica, Arial, sans-serif;
+	text-align: center;
 }
 
 /* UNITED THEMES Image Animation */

@@ -91,6 +91,34 @@ a img {
 	border: 0;
 }
 
+/* #Fonts
+================================================== */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Thin.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face{ 
+	font-family: 'Steelfish';
+	src: url('http://localhost:14454/fonts/steelfish/steelfish_eb-webfont.eot');
+	src: url('http://localhost:14454/fonts/steelfish/steelfish_eb-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('http://localhost:14454/fonts/steelfish/steelfish_eb-webfont.woff') format('woff'),
+	     url('http://localhost:14454/fonts/steelfish/steelfish_eb-webfont.ttf') format('truetype'),
+	     url('http://localhost:14454/fonts/steelfish/steelfish_eb-webfont.svg#webfont') format('svg');
+}
+
+@font-face{ 
+	font-family: 'Steelfish-rg';
+	src: url('http://localhost:14454/fonts/steelfish/steelfish_rg.eot');
+	src: url('http://localhost:14454/fonts/steelfish/steelfish_rg.eot?#iefix') format('embedded-opentype'),
+	     url('http://localhost:14454/fonts/steelfish/steelfish_rg.woff') format('woff'),
+	     url('http://localhost:14454/fonts/steelfish/steelfish_rg.ttf') format('truetype'),
+ 	     url('http://localhost:14454/fonts/steelfish/steelfish_rg.ttf.svg#webfont') format('svg');
+
+}
+
 /* #General
 ================================================== */
 

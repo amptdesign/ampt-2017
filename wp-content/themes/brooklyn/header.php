@@ -95,9 +95,10 @@ img.wp-smiley, img.emoji {
 <link rel='stylesheet' id='mediaelement-css'  href='http://localhost:35621/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.18.1' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-mediaelement-css'  href='http://localhost:35621/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=4.5.2' type='text/css' media='all' />
 <link rel='stylesheet' id='ut-flexslider-css'  href='http://localhost:35621/wp-content/themes/brooklyn/css/flexslider.min.css?ver=4.5.2' type='text/css' media='all' />
-<link rel='stylesheet' id='ut-portfolio-css'  href='http://localhost:35621/wp-content/themes/brooklyn/css/ut.portfolio.style.min.css?ver=4.5.2' type='text/css' media='all' />
+<!-- <link rel='stylesheet' id='ut-portfolio-css'  href='http://localhost:35621/wp-content/themes/brooklyn/css/ut.portfolio.style.min.css?ver=4.5.2' type='text/css' media='all' /> -->
+<link rel='stylesheet' id='ut-portfolio-css'  href='http://localhost:35621/wp-content/themes/brooklyn/css/ut.portfolio.style.css?ver=4.5.2' type='text/css' media='all' />
 <link rel='stylesheet' id='ut-prettyphoto-css'  href='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/css/plugins/prettyphoto/prettyPhoto.min.css?ver=4.5.2' type='text/css' media='all' />
-<link rel='stylesheet' id='ut-fontawesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css?ver=4.5.2' type='text/css' media='all' />
+<!-- <link rel='stylesheet' id='ut-fontawesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css?ver=4.5.2' type='text/css' media='all' /> -->
 <link rel='stylesheet' id='ut-responsive-grid-css'  href='http://localhost:35621/wp-content/plugins/ut-pricing/assets/css/ut-responsive-grid.min.css?ver=4.5.2' type='text/css' media='all' />
 <link rel='stylesheet' id='ut-table-css'  href='http://localhost:35621/wp-content/themes/brooklyn/css/ut.table.style.min.css?ver=4.5.2' type='text/css' media='all' />
 <link rel='stylesheet' id='ut-animate-css'  href='http://localhost:35621/wp-content/plugins/ut-shortcodes/css/ut.animate.min.css?ver=4.5.2' type='text/css' media='all' />
@@ -109,8 +110,8 @@ img.wp-smiley, img.emoji {
 <link rel='stylesheet' id='rs-plugin-settings-css'  href='http://localhost:35621/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.2.3.5' type='text/css' media='all' />
 <style id='rs-plugin-settings-inline-css' type='text/css'> #rs-demo-id {} </style>
 <link rel='stylesheet' id='main-font-face-css'  href='http://localhost:35621/wp-content/themes/brooklyn/css/ut-fontface.min.css?ver=4.5.2' type='text/css' media='all' />
-<link rel='stylesheet' id='ut_body_font_type-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A&#038;ver=4.5.3' type='text/css' media='all' />
-<link rel='stylesheet' id='ut_front_hero_font_type-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A800&#038;ver=4.5.3' type='text/css' media='all' />
+<!-- <link rel='stylesheet' id='ut_body_font_type-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A&#038;ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='ut_front_hero_font_type-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A800&#038;ver=4.5.3' type='text/css' media='all' /> -->
 <link rel='stylesheet' id='ut-superfish-css'  href='http://localhost:35621/wp-content/themes/brooklyn/css/ut-superfish.min.css?ver=4.5.2' type='text/css' media='all' />
 <link rel='stylesheet' id='unitedthemes-style-css'  href='http://localhost:35621/wp-content/themes/brooklyn/style.css?ver=3.3.2' type='text/css' media='all' />
 <script type='text/javascript' src='http://localhost:35621/wp-includes/js/jquery/jquery.js?ver=1.12.3'></script>
@@ -131,7 +132,7 @@ img.wp-smiley, img.emoji {
 <link rel='shortlink' href='http://localhost:35621/' />
 <link rel="alternate" type="application/json+oembed" href="http://localhost:35621/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A35621%2F" />
 <link rel="alternate" type="text/xml+oembed" href="http://localhost:35621/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A35621%2F&#038;format=xml" />
-<link rel="alternate" type="application/rss+xml" title="Ampt Design GeoRSS-Feed" href="http://localhost:35621/wp-content/plugins/leaflet-maps-marker/leaflet-georss.php?layer=all" />
+<!-- <link rel="alternate" type="application/rss+xml" title="Ampt Design GeoRSS-Feed" href="http://localhost:35621/wp-content/plugins/leaflet-maps-marker/leaflet-georss.php?layer=all" /> -->
 
 <style type="text/css">
 ::-moz-selection {
@@ -490,6 +491,7 @@ input[type="button"],
 
 #navigation ul.sub-menu li > a {
     color: #999999;
+    border:bottom 1px #fff;
 }
 
 #navigation ul li.current-menu-item:not(.current_page_parent) a,
@@ -1094,10 +1096,11 @@ blockquote {
 }
 
 .subtit b {
-    color:#222;
-    font-size:16.3pt;
-    font-weight: 400;
-    letter-spacing: 0.6px; 
+    color:#333;
+    font-size:16pt;
+    font-weight: 800;
+    letter-spacing: 0px; 
+    text-transform: capitalize;
 }
 
 
