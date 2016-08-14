@@ -621,6 +621,11 @@ h6 {
     font-weight: 800;
 }
 
+@media screen and (min-width: 1025px) {
+    #contact-section .ut-left-footer-area {margin:0 0 0 16%;}
+    #contact-section .ut-right-footer-area {margin: 0 11% 0 0;}
+}
+
 #contact-section .ut-left-footer-area {
     background: rgb(255, 255, 255, 1);
 }
@@ -1101,6 +1106,22 @@ blockquote {
     font-weight: 800;
     letter-spacing: 0px; 
     text-transform: capitalize;
+}
+
+.contact-us-txt {
+    color:#333;
+    font-size:18px;
+    font-height:23px!important;
+}
+.contact-us-txt b {font-weight:800;}
+
+
+::-webkit-input-placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}::-moz-placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}::-ms-placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}::placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}
+textarea::-webkit-input-placeholder {
+  color:#666;font-size:1.3em;text-transform:uppercase;letter-spacing: 0.8px;
+}
+textarea:-moz-placeholder {
+  color:#666;font-size:1.3em;text-transform:uppercase;letter-spacing: 0.8px;
 }
 
 

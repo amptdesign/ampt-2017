@@ -3256,10 +3256,10 @@ input[type="checkbox"] {
 .dark .wpcf7-form input, .dark .wpcf7-form textarea,
 input, textarea {
 	background: #FFFFFF;
-	border: 1px solid #DDDDDD;
+	border: 2px solid #DDDDDD;
 	color: #b2b2b6;
 	letter-spacing:0.5px;
-	padding: 10px;
+	padding: 12px;
 	outline: none;
 	margin: 0;
 	width:100%;
@@ -3267,7 +3267,7 @@ input, textarea {
 	display: block;
 	vertical-align: baseline; /* Improves appearance and consistency in all browsers */
  	*vertical-align: middle; /* Improves appearance and consistency in all browsers */
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	-webkit-transition:0.2s border linear;
 	-moz-transition:0.2s border linear;
 	transition:0.2s border linear;
@@ -3979,6 +3979,8 @@ html {
 /*div .welcome*/
 
 h5.serv-title {}
+
+.contact-us-txt {font-size:18px!important;}
 
 
 /* OVERWRITTEN IN HEADER.PHP <STYLE></STYLE> */

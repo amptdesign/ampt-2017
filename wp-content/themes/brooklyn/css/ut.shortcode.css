@@ -463,7 +463,7 @@ p .ut-btn {
 .ut-blockquote-left {
 	float:left;
 	margin:0;
-	width:35%;
+	width:-1%!important;
 	margin-right:20px;
 }
 .ut-blockquote-left blockquote p:before,
