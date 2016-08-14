@@ -2128,6 +2128,83 @@ if( !function_exists('ut_service_icon_box') ) {
     
 } 
 
+/*
+ * QUALITY STANDARDS Box
+ */ 
+
+if( !function_exists('ut_quality_icon_box') ) { 
+ 
+    function ut_quality_icon_box($atts, $content = null) {
+        
+        extract(shortcode_atts(array(
+        
+             'icon'         => '',
+             'color'        => '#CCC',
+             'hovercolor'   => '#3CC6AB',
+             'url'          => '#',
+             'link'         => '#',
+             'headline'     => '',
+             'width'        => 'third',
+             'effect'       => '',
+             'animate_once' => 'no',
+             'last'         => '',
+             'target'       => '_self',
+             'size'         => '',
+             'class'        => ''
+        
+        ), $atts));
+        
+        if( empty( $url ) ) {
+            $url = $link;
+        }
+        
+        $grid = array( 'third'  => 'ut-one-third',
+                       'fourth' => 'ut-one-fourth',
+                       'half'    => 'ut-one-half');
+        
+        $last = $last == 'true' ? 'ut-column-last' : '';
+        
+        /* animation effect */
+        $dataeffect = $animated = NULL;
+        if( !empty( $effect ) ) {
+
+            $dataeffect = 'data-effect="' . $effect . '" data-animateonce="' . $animate_once . '"';
+            $animated   = 'ut-animate-element animated';
+            
+        }
+        
+        $id = uniqid("utbx_");
+        
+        $box = '<div class="ut-quality-icon-box ' . $grid[$width] . ' ' . $last . ' ' . $class . '">';
+
+            if( !empty( $headline ) ) {
+                $box .= '<h3 class="service-icon-title">' . $headline . '</h3>';
+            } 
+            
+            // $box  .= '<style type="text/css" scoped> #' . $id . ' { background:' . $color . '; } #' . $id . ':hover { background: ' . $hovercolor . '; } #' . $id . ':after { box-shadow: 0 0 0 4px ' . $hovercolor . '; } </style>';
+
+            $box  .= '<style type="text/css" scoped> #' . $id . ' { color:' . $color . '; } #' . $id . ':hover { color: #fbc02d; } #' . $id . ':after { box-shadow: 0 0 0 0px #fbc02d; } #' .$id. '.ut-highlight-icon:before{font-size:'.$size.'!important;} </style>';
+                
+            $box .= '<div class="ut-highlight-icon-wrap ut-highlight-icon-effect">';        
+                $box .=    '<a id="' . $id . '" data-id="' . $id . '" data-hovercolor="' . $hovercolor . '"  ' . $dataeffect . ' class="ut-highlight-icon fa ' . $icon . ' ' . $animated . '" href="' . $url . '" target="' . $target . '"></a>'; 
+            $box .= '</div>';
+            
+            $box .= '<div class="ut-service-icon-box-content">';
+                
+                $box .= '<p>' . do_shortcode($content) . '</p>';
+                            
+            $box .= '</div>';
+                                
+        $box .= '</div>';
+        
+        return $box;
+        
+    }
+    
+    add_shortcode('ut_quality_icon_box', 'ut_quality_icon_box');
+    
+} 
+
 
 /*
  * Count Up

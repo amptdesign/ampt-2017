@@ -1621,12 +1621,22 @@ ul.ut-tablet li.show {
 	color:#FFFFFF;
 	left:9px;
 }
-#navigation ul li a:after {
+/*#navigation ul li a:after {
 	content:"\2022";
 	position:absolute;
 	top:0;
 	color:#222222;
 	left:9px;
+}*/
+
+#navigation ul li a:after {
+    content: "\7c";
+    position: absolute;
+    top: -1px;
+    /*color: #77be32;*/
+    color: #666;
+    left: 11px;
+    font-size: 14pt;
 }
 .ut-header-dark #navigation ul li a:after {
 	content:'â€¢';
@@ -3384,6 +3394,10 @@ button:hover, input[type="submit"]:hover, input[type="button"]:hover, button:foc
 .add-bottom {
 	margin-bottom: 20px !important;
 }
+
+.add-top {
+	margin-top: 20px !important;
+}
 .ut-half-height {
 	height:50% !important;
 }
@@ -3941,7 +3955,7 @@ html {
 .second { color:#77BE32; }
 
 .welcome {
-	/*text-align: left;*/
+	text-align: left;
 	list-style-type: square!important;
 	list-style-position: inside;
 }

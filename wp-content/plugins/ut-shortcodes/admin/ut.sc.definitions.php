@@ -471,6 +471,82 @@ $ut_shortcodes['ut_service_icon_box'] = array(
     )
 );
 
+/* QUALITY icon box */
+$ut_shortcodes['ut_quality_icon_box'] = array(
+    'type'  =>  'c',
+    'title' =>  __('Quality Icon Box', 'ut_shortcodes' ),
+    'attr'  =>  array(
+        
+        'color' =>  array(
+            'type'  =>  'colorpicker',
+            'title' => __('Color' , 'ut_shortcodes')
+        ),
+
+        'size' =>  array(
+            'type'  =>  'input',
+            'title' => __('Size' , 'ut_shortcodes')
+            'desc'  => __('Font Size of Icon' , 'ut_shortcodes' )
+        ),
+        
+        'hovercolor' => array(
+            'type'  =>  'colorpicker',
+            'title' => __('Hover Color' , 'ut_shortcodes')
+        ),
+        
+        'icon'  =>  array(
+            'type'  =>  'icon',
+            'title' =>  __('Icon' , 'ut_shortcodes')
+        ),
+        
+        'url'   =>  array(
+            'type'  =>  'input',
+            'title' =>  __('Link' , 'ut_shortcodes'),
+            'desc'  =>  __('Don\'t forget to put "http://" in front of your url' , 'ut_shortcodes')
+        ),
+        
+        'target' =>  array(
+            'type'  =>  'select',
+            'title' =>  __('Target' , 'ut_shortcodes'),
+            'values'=> array( '_blank' , '_self' )
+        ),
+        
+        'headline' => array(
+            'type'  =>  'input',
+            'title' =>  __('Headline' , 'ut_shortcodes'),
+            'desc'  =>  __('Box Headline' , 'ut_shortcodes' )
+        ),
+        
+        'width' => array(
+            'type'  =>  'select',
+            'title' =>  __('Box Width' , 'ut_shortcodes'),
+            'values'=> array( 'third' , 'fourth' , 'half' )
+        ),
+        
+        'effect' => array(
+            'type'  =>  'effect',
+            'title' =>  __('Optional Animation Effect','ut_shortcodes')
+        ),
+        
+        'animate_once' =>  array(
+            'type'  =>  'select',
+            'title' =>  __('Animate Once' , 'ut_shortcodes'),
+            'values'=> array( 'no' , 'yes' )
+        ),
+        
+        'last' => array(
+            'type'  =>  'select',
+            'title' =>  __('Last in row' , 'ut_shortcodes'),
+            'values'=> array( 'true' , 'false')
+        ),
+        
+        'class' =>  array(
+            'type'  =>  'input',
+            'title' =>  __('Optional Class','ut_shortcodes')
+        )
+        
+    )
+);
+
 
 /* service column */
 $ut_shortcodes['ut_service_column'] = array(

@@ -985,6 +985,9 @@ opacity: 1;
 .ut-service-icon-box {
 	text-align:center;
 }
+.ut-quality-icon-box {
+	text-align:center;
+}
 .ut-highlight-icon {
 	font-family: 'FontAwesome';
 	display: inline-block !important;
