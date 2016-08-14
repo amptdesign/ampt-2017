@@ -94,7 +94,7 @@ a img {
 /* #Fonts
 ================================================== */
 
-@font-face {
+/*@font-face {
     font-family: 'Roboto';
     src: url('Roboto-Thin.ttf') format('truetype');
     font-weight: 200;
@@ -117,7 +117,7 @@ a img {
 	     url('http://localhost:14454/fonts/steelfish/steelfish_rg.ttf') format('truetype'),
  	     url('http://localhost:14454/fonts/steelfish/steelfish_rg.ttf.svg#webfont') format('svg');
 
-}
+}*/
 
 /* #General
 ================================================== */
@@ -142,7 +142,7 @@ body {
 	min-height:100%;
 	width:100%;
 	background: #FFFFFF;
-	font: 14px/22px "ralewayregular", Helvetica Neue, Helvetica, Arial, sans-serif;
+	font: 16px/22px "ralewayregular", Helvetica Neue, Helvetica, Arial, sans-serif;
 	color: #888888;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
