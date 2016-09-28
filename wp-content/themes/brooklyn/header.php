@@ -1115,6 +1115,16 @@ blockquote {
 }
 .contact-us-txt b {font-weight:800;}
 
+.ppt {display:none!important;}
+
+.pp_description {
+    font-family: "Century Gothic"!important;
+    font-size: 14px!important;
+    font-weight: 400!important;
+    line-height: 16px!important;
+    color: #000!important;
+}
+
 
 ::-webkit-input-placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}::-moz-placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}::-ms-placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}::placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}
 textarea::-webkit-input-placeholder {
