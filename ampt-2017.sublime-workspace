@@ -28,20 +28,30 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/ghost/Documents/My Web Sites/EmptySite/hello.txt",
+			"file": "wp-content/themes/brooklyn/header.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 39995,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/brooklyn/style.css",
+			"settings":
+			{
+				"buffer_size": 84338,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/ghost/Documents/Everything in the house is for sale.htm",
+			"file": "wp-content/themes/brooklyn/css/font-awesome.css",
 			"settings":
 			{
-				"buffer_size": 26064,
-				"encoding": "Western (Windows 1252)",
-				"line_ending": "Windows"
+				"buffer_size": 35454,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -85,10 +95,25 @@
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn"
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css"
 	],
 	"file_history":
 	[
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/fonts/fontawesome-webfont.svg",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/fonts/fontawesome-webfont.ttf",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/fonts/fontawesome-webfont.woff",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/fonts/fontawesome-webfont.woff2",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/admin/includes/ot-functions-admin.php",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/ut-shortcodes.php",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/admin/ut.icons.popup.php",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/admin/ut.buttons.popup.php",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-pricing/ut-pricing.php",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/font-awesome.min.css",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/font-awesome.css",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/functions.php",
+		"/C/Users/ghost/Documents/My Web Sites/EmptySite/hello.txt",
+		"/C/Users/ghost/Documents/Everything in the house is for sale.htm",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/style.css",
 		"/C/Users/ghost/Downloads/usergallery.php",
 		"/C/Users/ghost/Downloads/comments-1.php",
@@ -99,10 +124,8 @@
 		"/C/Users/ghost/Desktop/INSPECT NEW SECURITY FILES",
 		"/C/Users/ghost/Documents/My Web Sites/black/wp-content/themes/toddmotto-HTML5-Blank-WordPress-Theme-1fc6ee2/css/style-master.css",
 		"/C/Users/ghost/Documents/My Web Sites/abcbeercans/wp-content/themes/flatsome/css/fonts.css",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/font-awesome.css",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/ut.shortcode.min.css",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/ut.shortcode.css",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/functions.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/admin/ut.sc.definitions.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/css/ut.shortcode.min.css",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/css/ut.shortcode.css",
@@ -122,7 +145,6 @@
 		"/A/Users/Hermes/Documents/My Web Sites/3m/index.php",
 		"/C/Users/ghost/Documents/My Web Sites/abcbeercans/wp-content/themes/flatsome/css/all-css-not-min.css",
 		"/C/Users/ghost/Documents/My Web Sites/abcbeercans/wp-content/themes/flatsome/style.css",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/ut-shortcodes.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/index.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/admin/ut-section-loader.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/partials/content-page.php",
@@ -205,18 +227,7 @@
 		"/C/Windows/winsxs/amd64_adpahci.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_88af6947356320a2/adpahci.inf_loc",
 		"/C/Windows/winsxs/amd64_adp94xx.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_7d4dd7ec25670124/adp94xx.inf_loc",
 		"/C/Windows/winsxs/amd64_adpu320.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_6a45a05a6afc0a79/adpu320.inf_loc",
-		"/C/Windows/winsxs/amd64_agp.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_c1d2a33730aa56a6/agp.inf_loc",
-		"/C/Windows/winsxs/amd64_amdsata.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_9c21da54655fab3d/amdsata.inf_loc",
-		"/C/Windows/winsxs/amd64_amdsbs.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_267caec07f213aec/AMDSBS.inf_loc",
-		"/C/Windows/winsxs/amd64_arc.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_0d84bbf86bc07c16/arc.inf_loc",
-		"/C/Windows/winsxs/amd64_arcsas.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_ae7fa716cfd0da1f/arcsas.inf_loc",
-		"/C/Windows/winsxs/amd64_avc.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_700d963de350befa/avc.inf_loc",
-		"/C/Windows/winsxs/amd64_avmx64c.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_84e4d7e8642d499b/avmx64c.inf_loc",
-		"/C/Windows/System32/DriverStore/en-US/battery.inf_loc",
-		"/C/Windows/winsxs/amd64_bda.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_906a43fee8d8369b/bda.inf_loc",
-		"/C/Windows/winsxs/amd64_blbdrive.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_53dd38a4cf5b020e/blbdrive.inf_loc",
-		"/C/Windows/winsxs/amd64_brmfcmdm.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_628b3dbdafeb4174/brmfcmdm.inf_loc",
-		"/C/Windows/winsxs/amd64_brmfcmf.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_e68db482264e806b/brmfcmf.inf_loc"
+		"/C/Windows/winsxs/amd64_agp.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_c1d2a33730aa56a6/agp.inf_loc"
 	],
 	"find":
 	{
@@ -245,6 +256,35 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"add-top",
+			"url('/fonts/fontawesome",
+			"src: url('/fonts/fontawesome",
+			"font-awesome",
+			"localhost:35621/fonts/fontawesome",
+			"font-awesome",
+			"url('/fonts",
+			"font-awesome",
+			"fontawesome",
+			"maxcdn",
+			"//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/",
+			"http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/",
+			"//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/",
+			"maxcdn",
+			"//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/",
+			"maxcdn",
+			"//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/",
+			"http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/",
+			"//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/",
+			"maxcdn",
+			"'../fonts",
+			"maxcdn",
+			"font-awesome",
+			"ut-highlight-icon",
+			"ut-highlight-icon fa fa-desktop ",
+			"utbx_57f3dff313909",
+			"font-",
+			"awesome",
+			"font",
 			"(kb\\d\\d\\d\\d\\d\\d\\d)",
 			"\"^\\d\\d\\d\\d\\d\\d\\d$\"",
 			"\"^kb\\d\\d\\d\\d\\d\\d\\d$\"",
@@ -343,43 +383,20 @@
 			".wpcf7-not-valid-tip, .post-password-form label, .wpcf7-form",
 			"lazy",
 			"portfolio",
-			"lazy",
-			".quote",
-			"blockquote",
-			"contact-section",
-			".lead",
-			"lead",
-			"#about",
-			"#about-brooklyn",
-			".about",
-			"ut_body_font_type-css",
-			"open+sans",
-			"ut_body_font_type-css",
-			"http",
-			"hero-title",
-			"<style",
-			"style",
-			"link",
-			"google",
-			"link",
-			"post_name",
-			".hero-title",
-			".hero",
-			".pp",
-			" .pp_content",
-			"pp_content",
-			"pp_pic_holder",
-			"localhost:35621",
-			"localhost:4466",
-			"wp_db_amptdesign",
-			"localhost:35621"
+			"lazy"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
+			"src: url('http://localhost:35621/wp-content/themes/brooklyn/css/fonts/fontawesome",
+			"src: url('http://localhost:35621/wp-content/themes/brooklyn/css/fontawesome",
+			"url('fonts",
+			"http://localhost:35621/wp-content/themes/brooklyn/",
+			"'http://localhost:35621/wp-content/themes/brooklyn/",
+			"'/fonts",
 			"ut_quality_icon_box",
 			"class=\"add-top\"",
 			"width=\"third\"",
@@ -411,36 +428,39 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/ghost/Documents/My Web Sites/EmptySite/hello.txt",
+					"file": "wp-content/themes/brooklyn/header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 39995,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5358,
+								5361
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 0,
-								"count": 0,
-								"modified": false,
-								"selection": false,
+								"changes": -1,
+								"modified": true,
+								"selection": true,
 								"status": -1,
-								"syntax": "plain text"
+								"syntax": "php"
 							},
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1608.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -448,33 +468,71 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/ghost/Documents/Everything in the house is for sale.htm",
+					"file": "wp-content/themes/brooklyn/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26064,
+						"buffer_size": 84338,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								26064
+								72655,
+								72655
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 0,
-								"count": 198,
-								"modified": false,
-								"selection": false,
+								"changes": -1,
+								"modified": true,
+								"selection": true,
 								"status": -1,
-								"syntax": "plain text"
+								"syntax": "css"
 							},
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 64049.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wp-content/themes/brooklyn/css/font-awesome.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 35454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1259,
+								1259
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "css"
+							},
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -482,7 +540,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -537,6 +595,14 @@
 		"selected_items":
 		[
 			[
+				"style",
+				"wp-content\\themes\\brooklyn\\style.css"
+			],
+			[
+				"functions",
+				"wp-content\\themes\\brooklyn\\functions.php"
+			],
+			[
 				"header",
 				"wp-content\\themes\\brooklyn\\header.php"
 			],
@@ -551,14 +617,6 @@
 			[
 				"footer",
 				"wp-content\\themes\\brooklyn\\footer.php"
-			],
-			[
-				"style",
-				"wp-content\\themes\\brooklyn\\style.css"
-			],
-			[
-				"functions",
-				"wp-content\\themes\\brooklyn\\functions.php"
 			],
 			[
 				"wp-config",
