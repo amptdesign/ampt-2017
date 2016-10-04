@@ -536,7 +536,7 @@ if ( ! function_exists( 'ot_admin_styles' ) ) {
   function ot_admin_styles() {
   
     wp_enqueue_style( 'ot-admin-css', OT_URL . 'assets/css/ot-admin.css', false, OT_VERSION );
-	wp_enqueue_style( 'ot-fontawesome-css', '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' , false );
+	  wp_enqueue_style( 'ot-fontawesome-css', 'http://localhost:35621/wp-content/themes/brooklyn/css/font-awesome.min.css' , false );
     
   }
   

@@ -99,6 +99,7 @@ img.wp-smiley, img.emoji {
 <link rel='stylesheet' id='ut-portfolio-css'  href='http://localhost:35621/wp-content/themes/brooklyn/css/ut.portfolio.style.css?ver=4.5.2' type='text/css' media='all' />
 <link rel='stylesheet' id='ut-prettyphoto-css'  href='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/css/plugins/prettyphoto/prettyPhoto.min.css?ver=4.5.2' type='text/css' media='all' />
 <!-- <link rel='stylesheet' id='ut-fontawesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css?ver=4.5.2' type='text/css' media='all' /> -->
+<link rel='stylesheet' id='ut-fontawesome-css'  href='http://localhost:35621/wp-content/themes/brooklyn/css/font-awesome.min.css?ver=4.5.2' type='text/css' media='all' />
 <link rel='stylesheet' id='ut-responsive-grid-css'  href='http://localhost:35621/wp-content/plugins/ut-pricing/assets/css/ut-responsive-grid.min.css?ver=4.5.2' type='text/css' media='all' />
 <link rel='stylesheet' id='ut-table-css'  href='http://localhost:35621/wp-content/themes/brooklyn/css/ut.table.style.min.css?ver=4.5.2' type='text/css' media='all' />
 <link rel='stylesheet' id='ut-animate-css'  href='http://localhost:35621/wp-content/plugins/ut-shortcodes/css/ut.animate.min.css?ver=4.5.2' type='text/css' media='all' />

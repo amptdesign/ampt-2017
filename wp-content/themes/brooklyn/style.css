@@ -3397,6 +3397,7 @@ button:hover, input[type="submit"]:hover, input[type="button"]:hover, button:foc
 
 .add-top {
 	margin-top: 20px !important;
+	text-align: center;
 }
 .ut-half-height {
 	height:50% !important;

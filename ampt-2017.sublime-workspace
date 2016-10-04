@@ -27,6 +27,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Users/ghost/Documents/My Web Sites/EmptySite/hello.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/ghost/Documents/Everything in the house is for sale.htm",
+			"settings":
+			{
+				"buffer_size": 26064,
+				"encoding": "Western (Windows 1252)",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -72,6 +89,10 @@
 	],
 	"file_history":
 	[
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/style.css",
+		"/C/Users/ghost/Downloads/usergallery.php",
+		"/C/Users/ghost/Downloads/comments-1.php",
+		"/C/Users/ghost/Downloads/style.css",
 		"/C/Users/ghost/Downloads/themeforest-6221179-brooklyn-responsive-multipurpose-wordpress-theme/brooklyn/404.php",
 		"/E/268.JPG",
 		"/C/Users/ghost/Desktop/BAD FILES - DO NOT INSTALL",
@@ -83,7 +104,6 @@
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/ut.shortcode.css",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/functions.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/admin/ut.sc.definitions.php",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/style.css",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/css/ut.shortcode.min.css",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/css/ut.shortcode.css",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/ut.shortcode.functions.php",
@@ -196,10 +216,7 @@
 		"/C/Windows/winsxs/amd64_bda.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_906a43fee8d8369b/bda.inf_loc",
 		"/C/Windows/winsxs/amd64_blbdrive.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_53dd38a4cf5b020e/blbdrive.inf_loc",
 		"/C/Windows/winsxs/amd64_brmfcmdm.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_628b3dbdafeb4174/brmfcmdm.inf_loc",
-		"/C/Windows/winsxs/amd64_brmfcmf.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_e68db482264e806b/brmfcmf.inf_loc",
-		"/C/Windows/winsxs/amd64_brmfcsto.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_bd552b3f3855af60/brmfcsto.inf_loc",
-		"/C/Windows/winsxs/amd64_brmfcumd.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_ce61ed8f7bb6c5c2/brmfcumd.inf_loc",
-		"/C/Windows/winsxs/amd64_1394.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_beafdf583b909e3f/1394ohci.sys.mui"
+		"/C/Windows/winsxs/amd64_brmfcmf.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_e68db482264e806b/brmfcmf.inf_loc"
 	],
 	"find":
 	{
@@ -389,8 +406,85 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/ghost/Documents/My Web Sites/EmptySite/hello.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 0,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/ghost/Documents/Everything in the house is for sale.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								26064
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 198,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -443,6 +537,10 @@
 		"selected_items":
 		[
 			[
+				"header",
+				"wp-content\\themes\\brooklyn\\header.php"
+			],
+			[
 				"ut.shortcode.min.",
 				"wp-content\\themes\\brooklyn\\css\\ut.shortcode.min.css"
 			],
@@ -453,10 +551,6 @@
 			[
 				"footer",
 				"wp-content\\themes\\brooklyn\\footer.php"
-			],
-			[
-				"header",
-				"wp-content\\themes\\brooklyn\\header.php"
 			],
 			[
 				"style",
