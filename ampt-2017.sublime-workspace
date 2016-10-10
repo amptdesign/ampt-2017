@@ -100,6 +100,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/ghost/Pictures/codes-girl.svg",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/fonts/fontawesome-webfont.svg",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/fonts/fontawesome-webfont.ttf",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/fonts/fontawesome-webfont.woff",
@@ -226,8 +227,7 @@
 		"/C/Windows/winsxs/amd64_acpipmi.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_ac73b2c5fc356f15/acpipmi.inf_loc",
 		"/C/Windows/winsxs/amd64_adpahci.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_88af6947356320a2/adpahci.inf_loc",
 		"/C/Windows/winsxs/amd64_adp94xx.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_7d4dd7ec25670124/adp94xx.inf_loc",
-		"/C/Windows/winsxs/amd64_adpu320.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_6a45a05a6afc0a79/adpu320.inf_loc",
-		"/C/Windows/winsxs/amd64_agp.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_c1d2a33730aa56a6/agp.inf_loc"
+		"/C/Windows/winsxs/amd64_adpu320.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_6a45a05a6afc0a79/adpu320.inf_loc"
 	],
 	"find":
 	{
@@ -445,14 +445,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "php"
-							},
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
@@ -479,8 +471,8 @@
 						"selection":
 						[
 							[
-								72655,
-								72655
+								72543,
+								71931
 							]
 						],
 						"settings":
@@ -497,8 +489,8 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 64049.0,
+						"translation.x": 0.0,
+						"translation.y": 63973.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -523,14 +515,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "css"
-							},
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 2,
