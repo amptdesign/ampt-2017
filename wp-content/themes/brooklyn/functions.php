@@ -437,7 +437,7 @@ if ( ! function_exists( 'unitedthemes_scripts' ) ) :
         
         wp_enqueue_style(
             'ut-fontawesome',
-            'http://localhost:35621/wp-content/themes/brooklyn/css/font-awesome' . $min . '.css'
+            '//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome' . $min . '.css'
         );
                 
         /* Google Fonts */

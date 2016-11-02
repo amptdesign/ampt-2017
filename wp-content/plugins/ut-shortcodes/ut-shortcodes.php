@@ -291,7 +291,7 @@ if ( !function_exists( 'ut_recognized_icons' ) ) {
         $pattern = '/\.(fa-(?:\w+(?:-)?)+):before\s+{\s*content:\s*"(.+)";\s+}/';
         
         # file to load
-        $subject = file_get_contents( 'http://localhost:35621/wp-content/themes/brooklyn/css/font-awesome.css' );
+        $subject = file_get_contents( 'http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css' );
         
         preg_match_all($pattern, $subject, $matches, PREG_SET_ORDER);
         

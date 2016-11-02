@@ -28,30 +28,29 @@
 	"buffers":
 	[
 		{
-			"file": "wp-content/themes/brooklyn/header.php",
+			"contents": "    font-family: \"abeatbykai\"!important;\n    font-size: 18px!important;\n    font-weight: 400!important;\n    line-height: 20px!important;\n    color: #000!important;\n    letter-spacing: 2px;\n    word-spacing: 2px!important;\n    background: rgba(255, 181, 0, 0.71);\n    padding: 13px;\n    border-top-left-radius: 5px;\n    border-top-right-radius: 5px;\n    border-bottom-left-radius: 5px;\n    border-bottom-right-radius: 5px;\n    margin: 15px!important;\n\n    Chicago ABC Beer Cans is a unique project creating an online storefront for vintage collectible beer cans, signs and trays; importantly ABC Beer Cans provides educational resources both to help new collectors understand the basics, and to remind seasoned collectors the rich history of the hobby and maybe even imparting some excitement once a visitor understands that some of these old vintage cans are almost extinct and finding a rare can at a rummage sale is like finding a rare hard-to-find artifact on an archaelogical dig!  Ofcourse, we can't overlook the glaring fact that a well preserved, rare can is extremely valuable and worth the treasure hunt!",
 			"settings":
 			{
-				"buffer_size": 39995,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 1113,
+				"line_ending": "Windows",
+				"name": "font-family: \"abeatbykai\"!important;"
 			}
 		},
 		{
 			"file": "wp-content/themes/brooklyn/style.css",
 			"settings":
 			{
-				"buffer_size": 84338,
+				"buffer_size": 84421,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "wp-content/themes/brooklyn/css/font-awesome.css",
+			"file": "wp-content/themes/brooklyn/header.php",
 			"settings":
 			{
-				"buffer_size": 35454,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 40299,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -100,6 +99,18 @@
 	],
 	"file_history":
 	[
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/header.php",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-includes/class-IXR.php",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/index.php",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/index.php",
+		"/C/Users/ghost/Documents/code/IFLoad_0.4_bin/IFLoad.config",
+		"/C/Users/ghost/Downloads/Sony Vegas Pro 13.0 build 310 (64 bit) (patch KHG) [ChingLiu]/How To Open Nfo Files.txt",
+		"/C/Users/ghost/Downloads/Sony Vegas Pro 13.0 build 310 (64 bit) (patch KHG) [ChingLiu]/ChingLiu.Install.Notes.nfo",
+		"/C/Users/ghost/Documents/code/IFLoad_0.4_bin/README.txt",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/font-awesome.css",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/style.css",
+		"/C/Users/ghost/Documents/bak/New folder/test/test/www.imagefap.com/pics/69/old men.html.tmp",
+		"/C/Users/ghost/Documents/bak/New folder/test/test/x.imagefapusercontent.com/u/sined_webz/6249502/index.html",
 		"/C/Users/ghost/Pictures/codes-girl.svg",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/fonts/fontawesome-webfont.svg",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/fonts/fontawesome-webfont.ttf",
@@ -111,11 +122,9 @@
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/admin/ut.buttons.popup.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-pricing/ut-pricing.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/font-awesome.min.css",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/font-awesome.css",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/functions.php",
 		"/C/Users/ghost/Documents/My Web Sites/EmptySite/hello.txt",
 		"/C/Users/ghost/Documents/Everything in the house is for sale.htm",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/style.css",
 		"/C/Users/ghost/Downloads/usergallery.php",
 		"/C/Users/ghost/Downloads/comments-1.php",
 		"/C/Users/ghost/Downloads/style.css",
@@ -131,7 +140,6 @@
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/css/ut.shortcode.min.css",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/css/ut.shortcode.css",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/ut.shortcode.functions.php",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/header.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/temp.php",
 		"/C/Users/ghost/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/inc/ut-theme-hooks.php",
@@ -203,7 +211,6 @@
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/.git/description",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/.git/FETCH_HEAD",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/.git/HEAD",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/index.php",
 		"/C/Users/ghost/Desktop/wp-config.php",
 		"/C/Users/ghost/AppData/Local/Microsoft/Web Platform Installer/logs/install/2016-07-17T03.56.40/WordPress.txt",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/sql3.sql",
@@ -219,19 +226,11 @@
 		"/C/Users/ghost/Documents/My Web Sites/db_wp_ampt2017/web.config",
 		"/C/Users/ghost/Documents/My Web Sites/WordPress/wp-config.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/sql2.sql",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2014/css/style.css",
-		"/C/Windows/winsxs/amd64_atiilhag.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_a84b3670179ab5eb/atiilhag.inf_loc",
-		"/C/Windows/winsxs/amd64_1394.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_beafdf583b909e3f/1394.inf_loc",
-		"/C/Windows/winsxs/amd64_61883.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_91f21dbac7469950/61883.inf_loc",
-		"/C/Windows/winsxs/amd64_acpi.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_0fa7d070e2960b75/acpi.inf_loc",
-		"/C/Windows/winsxs/amd64_acpipmi.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_ac73b2c5fc356f15/acpipmi.inf_loc",
-		"/C/Windows/winsxs/amd64_adpahci.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_88af6947356320a2/adpahci.inf_loc",
-		"/C/Windows/winsxs/amd64_adp94xx.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_7d4dd7ec25670124/adp94xx.inf_loc",
-		"/C/Windows/winsxs/amd64_adpu320.inf.resources_31bf3856ad364e35_6.1.7600.16385_en-us_6a45a05a6afc0a79/adpu320.inf_loc"
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2014/css/style.css"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -256,6 +255,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"to the basics of the hobby",
 			"add-top",
 			"url('/fonts/fontawesome",
 			"src: url('/fonts/fontawesome",
@@ -382,8 +382,7 @@
 			" .wpcf7-form",
 			".wpcf7-not-valid-tip, .post-password-form label, .wpcf7-form",
 			"lazy",
-			"portfolio",
-			"lazy"
+			"portfolio"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -423,39 +422,48 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "wp-content/themes/brooklyn/header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 39995,
+						"buffer_size": 1113,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5358,
-								5361
+								1049,
+								1049
 							]
 						],
 						"settings":
 						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 149,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"auto_name": "font-family: \"abeatbykai\"!important;",
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"default_dir": "C:\\Users\\ghost\\Documents\\My Web Sites\\ampt-2017",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1608.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -464,15 +472,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 84338,
+						"buffer_size": 84421,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								72543,
-								71931
+								84221,
+								84221
 							]
 						],
 						"settings":
@@ -490,41 +498,49 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 63973.0,
+						"translation.y": 87853.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "wp-content/themes/brooklyn/css/font-awesome.css",
+					"file": "wp-content/themes/brooklyn/header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 35454,
+						"buffer_size": 40299,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1259,
-								1259
+								39114,
+								39114
 							]
 						],
 						"settings":
 						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "php"
+							},
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 29497.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -579,16 +595,24 @@
 		"selected_items":
 		[
 			[
+				"header",
+				"wp-content\\themes\\brooklyn\\header.php"
+			],
+			[
 				"style",
 				"wp-content\\themes\\brooklyn\\style.css"
 			],
 			[
-				"functions",
-				"wp-content\\themes\\brooklyn\\functions.php"
+				"index.php",
+				"wp-includes\\class-IXR.php"
 			],
 			[
-				"header",
-				"wp-content\\themes\\brooklyn\\header.php"
+				"index",
+				"wp-content\\index.php"
+			],
+			[
+				"functions",
+				"wp-content\\themes\\brooklyn\\functions.php"
 			],
 			[
 				"ut.shortcode.min.",

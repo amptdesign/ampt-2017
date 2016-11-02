@@ -168,7 +168,7 @@ h5,
 h6 {
 	color: #222222;
 	line-height:150%;
-	font-weight: normal;
+	font-weight: bold;
 	margin-top:0;
 }
 h1 {
@@ -180,7 +180,7 @@ h2 {
 	margin-bottom:10px;
 }
 h3 {
-	font-size:17px;
+	font-size:20px;
 	margin-bottom:15px;
 }
 h4 {
@@ -1212,7 +1212,7 @@ a.ut-flex-control.next:hover { background:rgba(255, 255, 255, 0.15); color:#FFFF
 	color:#FFFFFF;
 	letter-spacing:0.5px;
 	/*font-size:0.857em;*/
-	font-size:1.2em;
+	font-size:1.3em;
 	margin:0 auto;
 	/*text-transform:uppercase;*/
 	display:inline-block;
@@ -3397,7 +3397,6 @@ button:hover, input[type="submit"]:hover, input[type="button"]:hover, button:foc
 
 .add-top {
 	margin-top: 20px !important;
-	text-align: center;
 }
 .ut-half-height {
 	height:50% !important;
@@ -3956,8 +3955,8 @@ html {
 .second { color:#77BE32; }
 
 .welcome {
-	text-align: left;
-	list-style-type: square!important;
+	text-align: center;
+	list-style-type: none!important;
 	list-style-position: inside;
 }
 
@@ -4016,3 +4015,15 @@ h5.serv-title {}
     line-height: 16px!important;
     color: #000!important;
 }*/
+
+.ut-service-icon-box, .ut-highlight-icon-wrap {
+	margin-top:0!important;
+	margin-bottom:0!important;
+}
+
+.wp-image-3295, .i3295 {
+	margin-top:0!important;
+	margin-bottom:0!important;
+	padding-top:0!important;
+	padding-bottom:0!important;
+}

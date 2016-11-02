@@ -49,7 +49,7 @@ if( !function_exists('ut_table_enqueuestyles') ) :
 		    
 			wp_enqueue_style(
                 'ut-fontawesome',
-                'http://localhost:35621/wp-content/themes/brooklyn/css/font-awesome' . $min . '.css'
+                '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome' . $min . '.css'
             );
             
 			wp_enqueue_style( 

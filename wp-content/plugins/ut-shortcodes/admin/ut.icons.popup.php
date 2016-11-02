@@ -20,7 +20,7 @@ $jqueryuiprefix =  ( get_bloginfo('version') < "4.1" ) ? 'jquery.ui.' : '';
     <title><?php _e('Icon Generator', 'ut_shortcodes' ); ?></title>
         
         <link rel="stylesheet" href="<?php echo plugins_url( 'css/ut.style.css' , __FILE__ ); ?>" />
-        <link rel="stylesheet" href="'http://localhost:35621/wp-content/themes/brooklyn/css/font-awesome.min.css'" />
+        <link rel="stylesheet" href="'//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'" />
         <link rel="stylesheet" href="<?php echo get_option('siteurl') ?>/wp-admin/css/color-picker.css" />
                 
         <script language="javascript" type="text/javascript" src="<?php echo get_option('siteurl') ?>/wp-includes/js/jquery/jquery.js"></script>
