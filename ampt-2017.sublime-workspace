@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-weight"
+			],
+			[
 				"back",
 				"background-color"
 			],
@@ -40,7 +44,7 @@
 			"file": "wp-content/themes/brooklyn/style.css",
 			"settings":
 			{
-				"buffer_size": 84555,
+				"buffer_size": 84746,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -57,7 +61,7 @@
 			"file": "wp-content/themes/brooklyn/css/ut.shortcode.css",
 			"settings":
 			{
-				"buffer_size": 30802,
+				"buffer_size": 30809,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -66,7 +70,16 @@
 			"file": "wp-content/themes/brooklyn/header.php",
 			"settings":
 			{
-				"buffer_size": 40299,
+				"buffer_size": 40483,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/brooklyn/footer.php",
+			"settings":
+			{
+				"buffer_size": 13194,
 				"line_ending": "Windows"
 			}
 		}
@@ -112,10 +125,17 @@
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css"
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/js"
 	],
 	"file_history":
 	[
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/functions.php",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/js/ut-init.js",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/footer.php",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/ut.table.style.css",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/ut.table.style.min.css",
+		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/ut.shortcode.min.css",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/header.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-includes/class-IXR.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/index.php",
@@ -139,7 +159,6 @@
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/admin/ut.buttons.popup.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-pricing/ut-pricing.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/font-awesome.min.css",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/functions.php",
 		"/C/Users/ghost/Documents/My Web Sites/EmptySite/hello.txt",
 		"/C/Users/ghost/Documents/Everything in the house is for sale.htm",
 		"/C/Users/ghost/Downloads/usergallery.php",
@@ -151,7 +170,6 @@
 		"/C/Users/ghost/Desktop/INSPECT NEW SECURITY FILES",
 		"/C/Users/ghost/Documents/My Web Sites/black/wp-content/themes/toddmotto-HTML5-Blank-WordPress-Theme-1fc6ee2/css/style-master.css",
 		"/C/Users/ghost/Documents/My Web Sites/abcbeercans/wp-content/themes/flatsome/css/fonts.css",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/ut.shortcode.min.css",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/ut.shortcode.css",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/admin/ut.sc.definitions.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/plugins/ut-shortcodes/css/ut.shortcode.min.css",
@@ -160,7 +178,6 @@
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/temp.php",
 		"/C/Users/ghost/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/inc/ut-theme-hooks.php",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/footer.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/css/ut.portfolio.style.min.css",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/temp2.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/temp2.php",
@@ -240,14 +257,11 @@
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-activate.php",
 		"/C/Users/ghost/Documents/My Web Sites/db_wp_ampt2017/sql3.sql",
 		"/C/Users/ghost/Documents/My Web Sites/db_wp_ampt2017/wp-config.php",
-		"/C/Users/ghost/Documents/My Web Sites/db_wp_ampt2017/web.config",
-		"/C/Users/ghost/Documents/My Web Sites/WordPress/wp-config.php",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/sql2.sql",
-		"/C/Users/ghost/Documents/My Web Sites/ampt-2014/css/style.css"
+		"/C/Users/ghost/Documents/My Web Sites/db_wp_ampt2017/web.config"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -272,6 +286,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ut-init",
+			"ut-btn",
+			"ut-btn-rnd",
+			"round",
+			"rnd",
+			"border",
+			"hover",
+			"ut-btn",
+			"u-btn",
+			"li",
+			".ut-btn.green",
+			"7ed321",
+			"#7ed321",
 			".ut-highlight-icon",
 			".ut-highlight-icon:before",
 			"icon",
@@ -386,20 +413,7 @@
 			"section",
 			"DARK B",
 			"jquery",
-			".page-title, .parallax-title, .section-title",
-			"pt-style-6 ",
-			"padd",
-			"-40px",
-			"-40px !important;",
-			"margin: -35px 0 0 -40px !important;",
-			"wookswear",
-			"wookswear-logo",
-			"http://localhost:28303/wp-content/uploads/2013/08/color.jpg",
-			"http://localhost:28303/wp-content/uploads/2013/08/dummy.gif",
-			"utbx",
-			"after",
-			"bx",
-			"ut-bx"
+			".page-title, .parallax-title, .section-title"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -439,7 +453,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -460,6 +474,15 @@
 						],
 						"settings":
 						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 149,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
 							"auto_name": "font-family: \"abeatbykai\"!important;",
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"default_dir": "C:\\Users\\ghost\\Documents\\My Web Sites\\ampt-2017",
@@ -471,7 +494,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -480,15 +503,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 84555,
+						"buffer_size": 84746,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4358,
-								4358
+								84744,
+								84605
 							]
 						],
 						"settings":
@@ -506,10 +529,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3117.0,
+						"translation.y": 80024.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -546,7 +569,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -555,15 +578,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 30802,
+						"buffer_size": 30809,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18924,
-								18924
+								18441,
+								18441
 							]
 						],
 						"settings":
@@ -580,11 +603,11 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 21905.0,
+						"translation.x": 0.0,
+						"translation.y": 19915.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -593,15 +616,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 40299,
+						"buffer_size": 40483,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12812,
-								12829
+								488,
+								488
 							]
 						],
 						"settings":
@@ -620,10 +643,49 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5111.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "wp-content/themes/brooklyn/footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "php"
+							},
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3490.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -631,7 +693,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -668,7 +730,7 @@
 	"project": "ampt-2017.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -677,6 +739,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"footer",
+				"wp-content\\themes\\brooklyn\\footer.php"
+			],
+			[
+				"function",
+				"wp-content\\themes\\brooklyn\\functions.php"
+			],
 			[
 				"wp-config",
 				"wp-config.php"
@@ -708,10 +778,6 @@
 			[
 				"ut.portfolio.style",
 				"wp-content\\themes\\brooklyn\\css\\ut.portfolio.style.css"
-			],
-			[
-				"footer",
-				"wp-content\\themes\\brooklyn\\footer.php"
 			],
 			[
 				"hader",
