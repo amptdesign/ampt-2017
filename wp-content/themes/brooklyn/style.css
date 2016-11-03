@@ -3959,6 +3959,10 @@ html {
 	list-style-type: none!important;
 	list-style-position: inside;
 }
+.welcome li {
+	color:#777;
+	font-size:17px;
+}
 
 .lead { font-size: 1.4em!important; }
 
@@ -4027,3 +4031,11 @@ h5.serv-title {}
 	padding-top:0!important;
 	padding-bottom:0!important;
 }
+
+/*.ut-service-icon-box {
+    text-align: center;
+    border: 1px solid green;
+    padding: 20px 20px 0 0;
+    margin: 10px;
+    width: 25%;
+}*/

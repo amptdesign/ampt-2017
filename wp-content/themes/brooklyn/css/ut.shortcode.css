@@ -999,7 +999,7 @@ opacity: 1;
 	display: inline-block !important;
 	font-size: 0px;
 	cursor: pointer;
-	margin: 15px 30px;
+	margin: 0 30px 15px 30px;
 	width: 90px !important;
 	height: 90px;
 	-webkit-border-radius:100%;
@@ -1025,7 +1025,7 @@ opacity: 1;
 }
 .ut-highlight-icon:before {
 	speak: none;
-	font-size: 48px;
+	font-size: 44px;
 	line-height: 90px;
 	font-style: normal;
 	font-weight: normal;

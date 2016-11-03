@@ -205,6 +205,15 @@
 	
     <?php wp_footer(); ?>
 
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery(".ut-btn").click(function(e) {
+        e.preventDefault();
+        jQuery("[name='your-subject']").val(jQuery(this).data("target"));
+        });
+    });
+</script> 
+
 <script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/js/plugins/prettyphoto/jquery.prettyPhoto.js?ver=3.1.6'></script>
 <script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/js/jquery.scrollTo.js?ver=1.4.6'></script>
 <script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-shortcodes/js/tabs.collapse.js?ver=1.0'></script>
@@ -224,6 +233,7 @@
 <script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/js/jquery.utmasonry.js?ver=3.8.2'></script>
 <script type='text/javascript' src='http://localhost:35621/wp-content/plugins/ut-portfolio/assets/js/ut.effects.js?ver=3.8.2'></script>
 <script type='text/javascript' src='http://localhost:35621/wp-content/themes/brooklyn/js/sweet-justice.min.js?ver=1.0.0'></script>
+
 
 
 

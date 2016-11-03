@@ -1141,7 +1141,16 @@ blockquote {
     border-bottom-right-radius: 5px;
     margin: 15px!important;
 }
-
+.ut-btn {
+    background:#fff!important;
+}
+.ut-btn:hover {
+    border:2px solid #fbc02d!important;
+}
+.ut-btn.medium:hover {
+    color:#fbc02d!important;
+    font-size:11pt!important;
+}
 
 ::-webkit-input-placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}::-moz-placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}::-ms-placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}::placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}
 textarea::-webkit-input-placeholder {
