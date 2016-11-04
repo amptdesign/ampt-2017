@@ -1102,7 +1102,7 @@ blockquote {
 
 .subtit b {
     color:#333;
-    font-size:16pt;
+    font-size:15pt;
     font-weight: 800;
     letter-spacing: 0px; 
     text-transform: capitalize;

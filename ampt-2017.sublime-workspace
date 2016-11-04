@@ -130,6 +130,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/ghost/Documents/code/IFLoad_0.4_bin/IFLoad.config",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/functions.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/js/ut-init.js",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/themes/brooklyn/footer.php",
@@ -140,7 +141,6 @@
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-includes/class-IXR.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/wp-content/index.php",
 		"/C/Users/ghost/Documents/My Web Sites/ampt-2017/index.php",
-		"/C/Users/ghost/Documents/code/IFLoad_0.4_bin/IFLoad.config",
 		"/C/Users/ghost/Downloads/Sony Vegas Pro 13.0 build 310 (64 bit) (patch KHG) [ChingLiu]/How To Open Nfo Files.txt",
 		"/C/Users/ghost/Downloads/Sony Vegas Pro 13.0 build 310 (64 bit) (patch KHG) [ChingLiu]/ChingLiu.Install.Notes.nfo",
 		"/C/Users/ghost/Documents/code/IFLoad_0.4_bin/README.txt",
@@ -474,15 +474,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 149,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"auto_name": "font-family: \"abeatbykai\"!important;",
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"default_dir": "C:\\Users\\ghost\\Documents\\My Web Sites\\ampt-2017",
@@ -516,14 +507,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "css"
-							},
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
@@ -554,14 +537,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "php"
-							},
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
@@ -591,14 +566,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "css"
-							},
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
@@ -629,14 +596,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "php"
-							},
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
