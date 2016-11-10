@@ -1152,6 +1152,11 @@ blockquote {
     font-size:11pt!important;
 }
 
+h3{ 
+    text-transform: uppercase;
+    text-align: center!important;
+}
+
 ::-webkit-input-placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}::-moz-placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}::-ms-placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}::placeholder{color:#666;font-size:1.1em;text-transform:uppercase;}
 textarea::-webkit-input-placeholder {
   color:#666;font-size:1.3em;text-transform:uppercase;letter-spacing: 0.8px;
