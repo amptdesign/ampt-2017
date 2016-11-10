@@ -164,33 +164,6 @@
             <div class="grid-container">
                 
                 <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
-                
-                    <?php //echo do_shortcode( ot_get_option('ut_site_copyright') ); // we love blah blah ?>
-                        
-                    <?php 
-                        
-                        $social = ot_get_option('ut_footer_social_icons');
-                        
-                        if( is_array( $social ) && !empty( $social ) ) {
-                            
-                            echo '<ul class="ut-footer-so">';    
-                                
-                                foreach( $social as $icon => $value) {
-                                    
-                                    $link  = !empty( $value["link"] )  ? esc_url( $value["link"] ) : '#' ;
-                                    $title = !empty( $value["title"] ) ? 'title="' . esc_attr( $value["title"] ) . '"' : '' ;
-                                    
-                                    echo '<li><a '.$title.' href="'.$link.'"><i class="fa '.$value["icon"].' fa-lg"></i></a></li>';
-                                    
-                                }
-                            
-                            echo '</ul>';    
-                        
-                        } 
-                        
-                        unset($social);
-                        
-                    ?>
                         
                     <div class="copyright"> Ampt Design &copy; <a href="#" class="tooltip" title="Ahead of the Curve!">2017</a> - Expanding your mind through superior Design! </div>
                         

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-transform"
+			],
+			[
 				"font",
 				"font-weight"
 			],
@@ -20,10 +24,6 @@
 				"background"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"php",
 				"php"
 			]
@@ -32,19 +32,10 @@
 	"buffers":
 	[
 		{
-			"contents": "    font-family: \"abeatbykai\"!important;\n    font-size: 18px!important;\n    font-weight: 400!important;\n    line-height: 20px!important;\n    color: #000!important;\n    letter-spacing: 2px;\n    word-spacing: 2px!important;\n    background: rgba(255, 181, 0, 0.71);\n    padding: 13px;\n    border-top-left-radius: 5px;\n    border-top-right-radius: 5px;\n    border-bottom-left-radius: 5px;\n    border-bottom-right-radius: 5px;\n    margin: 15px!important;\n\n    Chicago ABC Beer Cans is a unique project creating an online storefront for vintage collectible beer cans, signs and trays; importantly ABC Beer Cans provides educational resources both to help new collectors understand the basics, and to remind seasoned collectors the rich history of the hobby and maybe even imparting some excitement once a visitor understands that some of these old vintage cans are almost extinct and finding a rare can at a rummage sale is like finding a rare hard-to-find artifact on an archaelogical dig!  Ofcourse, we can't overlook the glaring fact that a well preserved, rare can is extremely valuable and worth the treasure hunt!",
-			"settings":
-			{
-				"buffer_size": 1113,
-				"line_ending": "Windows",
-				"name": "font-family: \"abeatbykai\"!important;"
-			}
-		},
-		{
 			"file": "wp-content/themes/brooklyn/style.css",
 			"settings":
 			{
-				"buffer_size": 84746,
+				"buffer_size": 84748,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -70,7 +61,7 @@
 			"file": "wp-content/themes/brooklyn/header.php",
 			"settings":
 			{
-				"buffer_size": 40483,
+				"buffer_size": 40556,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -286,6 +277,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"</p>",
+			"<p class=\"sweet-justice\">",
+			"h3",
+			"h3,",
 			".b",
 			"ut-init",
 			"ut-btn",
@@ -409,11 +404,7 @@
 			"ut_recognized_sections",
 			"about",
 			"section-about",
-			"section-",
-			"content",
-			"section",
-			"DARK B",
-			"jquery"
+			"section-"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -421,6 +412,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"src: url('http://localhost:35621/wp-content/themes/brooklyn/css/fonts/fontawesome",
 			"src: url('http://localhost:35621/wp-content/themes/brooklyn/css/fontawesome",
 			"url('fonts",
@@ -453,56 +445,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1113,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1049,
-								1049
-							]
-						],
-						"settings":
-						{
-							"auto_name": "font-family: \"abeatbykai\"!important;",
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"default_dir": "C:\\Users\\ghost\\Documents\\My Web Sites\\ampt-2017",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "wp-content/themes/brooklyn/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 84746,
+						"buffer_size": 84748,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								84601,
-								84601
+								84748,
+								84748
 							]
 						],
 						"settings":
@@ -520,14 +480,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 80009.0,
+						"translation.y": 80196.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "wp-config.php",
 					"semi_transient": false,
 					"settings":
@@ -556,7 +516,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "wp-content/themes/brooklyn/css/ut.shortcode.css",
 					"semi_transient": false,
 					"settings":
@@ -574,6 +534,14 @@
 						],
 						"settings":
 						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "css"
+							},
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
@@ -586,20 +554,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "wp-content/themes/brooklyn/header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 40483,
+						"buffer_size": 40556,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31428,
-								31428
+								33339,
+								33339
 							]
 						],
 						"settings":
@@ -618,14 +586,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 22319.0,
+						"translation.y": 23567.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "wp-content/themes/brooklyn/footer.php",
 					"semi_transient": false,
 					"settings":
@@ -657,10 +625,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3490.0,
+						"translation.y": 1510.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -705,7 +673,7 @@
 	"project": "ampt-2017.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
