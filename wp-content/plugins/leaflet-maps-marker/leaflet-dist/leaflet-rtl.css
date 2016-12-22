@@ -187,6 +187,10 @@ td.lmm-listmarkers-icon {
 	width: 0;
 	height: 0;
 	}
+.leaflet-overlay-pane svg {
+	-moz-user-select: none;
+	pointer-events:none; /*RH to make ToS links clickable */
+	}
 /* Leaflet controls */
 .leaflet-control {
 	position: relative;
